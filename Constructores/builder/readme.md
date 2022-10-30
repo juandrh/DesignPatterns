@@ -10,6 +10,7 @@ APLICABILIDAD
 Cuando:
 
 • el algoritmo para crear un objeto complejo debiera ser independiente de las partes de que se compone dicho objeto y de cómo se ensamblan.
+
 • el proceso de construcción debe permitir diferentes representaciones del objeto que está siendo construido.
 
 ESTRUCTURA
