@@ -1,3 +1,7 @@
+ABSTRACT FACTORY  (KIT)
+
+
+
 PROPÓSITO
 
 Proporciona una interfaz para crear familias de objetos relacionados o que dependen entre sí, sin especificar sus clases concretas.
