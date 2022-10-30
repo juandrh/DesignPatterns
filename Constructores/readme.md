@@ -25,4 +25,4 @@ Singleton<br>
 Fuentes:
 -   Asignatura Patrones de Diseño de UDIMA 
 -   Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley.
--   https://refactoring.guru/es/design-patterns
+
