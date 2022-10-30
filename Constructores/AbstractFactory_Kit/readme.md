@@ -42,6 +42,22 @@ PARTICIPANTES
 
 - sólo usa interfaces declaradas por las clases FabricaAbstracta y ProductoAbstracto.
 
+CONSECUENCIAS
+
+-  Aísla clases concretas. Controla las clases de objetos que crea una aplicación. La
+fábrica concreta encapsula la responsabilidad de creación de productos.
+Los clientes manipulan objetos a través de las interfaces abstractas de los productos
+(solamente Boton, CajaTexto)
+-  Los nombres de las clases concretas (BotonWindows, CajaTextoLinx) no aparecen
+en el código del cliente.
+-  Favorece el intercambio de familias de productos: cambio de fábrica concreta.
+-  Favorece la consistencia de productos. Objetos producto diseñados para trabajar
+de forma conjunta y es necesario hacer cumplir esta restricción: no se permite tener
+un BotonWindows y una CajaTextoLinux responsabilidad → de la factoría
+concreta.
+
+-  Dificultad para dar cabida a nuevos tipos de productos. Nuevos productos → Modificación
+de la fábrica abstracta → modificación de todas las factorías concretas.
 
 
 Fuentes:
