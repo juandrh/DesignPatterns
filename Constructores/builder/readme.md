@@ -21,7 +21,7 @@ PARTICIPANTES
 
 • Constructor (ConstructordeVehiculos): especifica una interfaz abstracta para crear las partes de un objeto Producto.
 
-• ConstructorConcreto (CConstructordeVehiculosCombustion,ConstructordeVehiculosElectricos)
+• ConstructorConcreto (ConstructordeVehiculosCombustion,ConstructordeVehiculosElectricos)
 
 - implementa la interfaz Constructor para construir y ensamblar las partes del producto.
 - define la representación a crear.
