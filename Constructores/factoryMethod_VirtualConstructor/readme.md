@@ -27,6 +27,18 @@ PARTICIPANTES
 • CrcadorConcreto (CreadorDocumentosWord)
 - redefine el método de fabricación para devolver una instancia de un ProductoConcreto.
 
+CONSECUENCIAS
+
+El creador se apoya en sus subclases para definir el método de fabricación: el método
+de fabricación (subclases) devolverá una instancia concreta del producto.
+
+Los métodos de fabricación eliminar la necesidad de ligar clases específicas de la
+aplicación al código: siempre trabajaremos con Documento, nunca con Word o La-
+Tex.
+
+Enganches para las subclases: crear objetos dentro de una clase con un método de
+fabricación siempre es más flexible que hacerlo directamente.
+
 Fuentes:
 -   Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley.
 -   https://refactoring.guru/es/design-patterns
