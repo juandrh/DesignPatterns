@@ -27,4 +27,6 @@ PARTICIPANTES
 • CrcadorConcreto (CreadorDocumentosWord)
 - redefine el método de fabricación para devolver una instancia de un ProductoConcreto.
 
-
+Fuentes:
+-   Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley.
+-   https://refactoring.guru/es/design-patterns
