@@ -36,7 +36,7 @@ Además, este desacoplamiento potencia una división en capas que puede dar luga
 
 
 Fuentes:
--   Asignatura Patrones de Diseño de UDIMA impartida por Javier Rodríguez Pérez
+-   Asignatura Patrones de Diseño de UDIMA 
 -   Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley.
 -   https://refactoring.guru/es/design-patterns
 
