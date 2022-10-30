@@ -1,4 +1,4 @@
-<h1> PATRONES DE CREACIÓN <\h1> 
+PATRONES DE CREACIÓN
 
 Abstraen el proceso de creación de instancias. Hacen un sistema independiente de cómo se crean, se componen y se representan sus objetos. 
 Tipos de patrón de creación:
