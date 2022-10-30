@@ -1,4 +1,4 @@
 # designPatterns
-Patrones de diseño: repaso e implementación de ejemplo en Java
+Patrones de diseño: repaso y ejemplos implementados en Java
 
 <h1>EN CONSTRUCCIÓN </h1>
