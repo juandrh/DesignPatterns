@@ -36,6 +36,15 @@ PARTICIPANTES
 - representa el objeto complejo en construcción. El ConstructorConcreto construye la representación interna del producto y define el proceso de ensamblaje.
 - incluye las clases que definen sus partes constituyentes, incluyendo interfaces para ensamblar las partes en el resultado final.
 
+CONSECUENCIAS
+
+Permite variar la representación interna de un producto → definición de un nuevo
+tipo de constructor e implementar la interfaz abstracta de construcción.
+
+Aísla el código de construcción y representación.
+
+Mayor control sobre el proceso de construcción.
+
 Fuentes:
 -   Asignatura Patrones de Diseño de UDIMA impartida por Javier Rodríguez Pérez
 -   Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley.
