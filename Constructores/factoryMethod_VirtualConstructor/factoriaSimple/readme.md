@@ -1,4 +1,4 @@
-Factoría Simple: método de fabricación parametrizado
+<h1>Factoría Simple: método de fabricación parametrizado</h1>
 
 Técnica de programación para encapsular el proceso de creación de instancias.
 
