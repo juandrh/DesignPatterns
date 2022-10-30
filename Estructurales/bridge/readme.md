@@ -35,6 +35,9 @@ Además, este desacoplamiento potencia una división en capas que puede dar luga
 3. Oculta detalles de implementación a los clientes. Podemos aislar a los clientes de los detalles de implementación, como el compartimiento de objetos implementadores y el correspondiente mecanismo de corneo de referencias (si es que hay alguno).
 
 
-
+Fuentes:
+-   Asignatura Patrones de Diseño de UDIMA impartida por Javier Rodríguez Pérez
+-   Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley.
+-   https://refactoring.guru/es/design-patterns
 
 
