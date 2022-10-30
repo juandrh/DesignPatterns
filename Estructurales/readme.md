@@ -17,3 +17,7 @@ Patrones:
 - El patrón Flyweight: define una estructura para compartir objetos para lograr un uso más eficiente del espacio. Pueden compartirse sólo si no tienen un estado que dependa del contexto. Cualquier información adicional que necesiten para llevar a cabo su tarea se les pasa en el momento que sea ne cesaria.
 - El patrón Proxy: un objeto proxy actúa como un sustituto o un representante de otro objeto. Pue den restringir, aumentar o alterar las propiedades de un objeto.
 
+Fuentes:
+-   Asignatura Patrones de Diseño de UDIMA 
+-   Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley.
+-   https://refactoring.guru/es/design-patterns
