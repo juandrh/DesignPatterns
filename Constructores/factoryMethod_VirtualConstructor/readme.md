@@ -1,7 +1,8 @@
 <h1>FACTORY METHOD (Virtual Constructor)</h1>
+
 PROPÓSITO
 
-Define una interfaz para crear un objeto, pero deja que sean las subclases quienes decidan qué clase instanciar. Permite que una clase delegue en sus subclases la creación de objetos![image](https://user-images.githubusercontent.com/52029674/198872924-930b8911-cf84-4365-8343-12a706df7a58.png)
+Define una interfaz para crear un objeto, pero deja que sean las subclases quienes decidan qué clase instanciar. Permite que una clase delegue en sus subclases la creación de objetos.
 
 
 APLICABILIDAD
