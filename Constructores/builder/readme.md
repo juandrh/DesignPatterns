@@ -1,3 +1,5 @@
+BUILDER
+
 PROPÓSITO
 
 Separa la construcción de un objeto complejo de su representación, de forma que el mismo proceso de construcción pueda crear diferentes representaciones.
