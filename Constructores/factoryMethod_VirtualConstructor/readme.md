@@ -39,6 +39,9 @@ Tex.
 Enganches para las subclases: crear objetos dentro de una clase con un método de
 fabricación siempre es más flexible que hacerlo directamente.
 
+Potencial inconveniente: herencia de la clase Creador para crear un simple producto
+concreto.
+
 Fuentes:
 -   Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley.
 -   https://refactoring.guru/es/design-patterns
