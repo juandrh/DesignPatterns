@@ -37,5 +37,6 @@ Visitor: encapsula comportamiento que de otro modo estaría distribuido en varia
 Fuentes:
 
 Asignatura Patrones de Diseño de UDIMA
+
 Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley.
 
