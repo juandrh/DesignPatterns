@@ -34,29 +34,25 @@ APLICABILIDAD
 
 ESTRUCTURA
 
-![image](https://user-images.githubusercontent.com/52029674/203949424-19e36ffb-9f38-4fe6-89dc-7c243fc5b700.png)
+![image](https://user-images.githubusercontent.com/52029674/203954023-160af3ff-95af-4226-9f40-cf435b1c8759.png)
+
 
 
 PARTICIPANTES
 
-• ExpresionAbstracta (ExpresionRegular): declara una operación abstracta Interpretar que es común a todos los nodos del árbol de sintaxis abstracto.
-
-• ExpresionTerminal (ExpresionLiteral)
-    - implementa una operación Interpretar asociada con los símbolos terminales de la gramática.
-    - se necesita una instancia de esta clase para cada símbolo terminal de una sentencia.
-    
-• ExpresionNoTerminal (ExpresionAltemativa, ExpresionRepeticion, ExpresionSecuencia)
-    - por cada regla de la gramática R ::= R1, R2... Rn debe haber una de estas clases.
-    - mantiene variables de instancia de tipo ExpresionAbstracta para cada uno de los símbolos de Rl a Rn.
-    - implementa una operación Interpretar para lo símbolos no terminales de la gramática. Interpretar normalmente se llama a sí misma recursivamente sobre las variables que representan de Rl a Rn.
-    
-• Contexto
-    - contiene información que es global al intérprete.
-    
-• Cliente
-    - construye (o recibe) un árbol sintáctico abstracto que representa una determinada sentencia del lenguaje definido por la gramática. Este árbol sintáctico abstracto está formado por instancias de las clases ExpresionNoTerminal y ExpresionTerminal.
-    - invoca a la operación Interpretar.
-    
+- Expresión es una clase abstracta que representa cualquier tipo de expresión, es
+decir cualquier nodo del árbol sintáctico.
+- OperadorAbstracto (OperadorBinario) es también una clase abstracta. Describe
+cualquier nodo de tipo operador, es decir que posea operandos que son
+subárboles del árbol sintáctico.
+- OperadorConcreto1 y OperadorConcreto2 (OperadorY, OperadorO) son
+implementaciones del OperadorAbstracto que describen completamente la
+semántica del operador y por tanto son capaces de evaluarlo.
+- ElementoTerminal es una clase abstracta que describe cualquier nodo
+correspondiente a un elemento terminal.
+- ElementoTerminalConcreto1 y ElementoTerminalConcreto2 (PalabraClave) son
+clases concretas que se corresponden con un elemento terminal, capaces de
+evaluar este elemento.
 
 CONSECUENCIAS
 
