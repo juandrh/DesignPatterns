@@ -1,4 +1,4 @@
-# PATRONES DE COMPORTAMIENTO!
+# PATRONES DE COMPORTAMIENTO
 
 
 Tienen que ver con algoritmos y con la asignación de responsabilidades a objetos.
@@ -34,4 +34,8 @@ Strategy: encapsula un algoritmo en un objeto, facilitando especificar y cambiar
 
 Visitor: encapsula comportamiento que de otro modo estaría distribuido en varias clases.
 
+Fuentes:
+
+Asignatura Patrones de Diseño de UDIMA
+Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley.
 
