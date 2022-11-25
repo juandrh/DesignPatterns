@@ -27,7 +27,8 @@ APLICABILIDAD
 
 ESTRUCTURA
 
-![image](https://user-images.githubusercontent.com/52029674/203964272-8f8819f7-1338-4c50-9114-0bb9c6f14a93.png)
+![image](https://user-images.githubusercontent.com/52029674/203964602-8bd5ffd9-0e91-4979-8a95-c9733cf5bccb.png)
+
 
 
 PARTICIPANTES
