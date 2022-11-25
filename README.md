@@ -2,9 +2,9 @@
 
 Fuentes:
 
-- Asignatura Patrones de Diseño de UDIMA
+- Asignatura "Patrones de Diseño" de UDIMA:  https://www.udima.es/es/patrones-diseno-frameworks.html
 
-- Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley.
+- Gamma, E., Helm, R., Johnson, R., Vilssides, J. "Patrones de Diseño", Ed: Addison Wesley: https://www.amazon.es/Patrones-dise%C3%B1o-Erich-Gamma/dp/8478290591
 
 
 Elementos:
